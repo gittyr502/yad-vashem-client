@@ -1,0 +1,11 @@
+<p>
+    right-side works!
+</p>
+
+
+<mat-tab-group animationDuration="0ms">
+    <mat-tab *ngIf="rescue==true" label="Rescue">Rescue
+        <br> {{rescueData}}</mat-tab>
+    <mat-tab *ngIf="names==true" label="Names">Names<br>{{namesData.elements}}</mat-tab>
+    <mat-tab *ngIf="photos==true" label="Photos">Photos<br>{{photosData.element}</mat-tab>
+</mat-tab-group>

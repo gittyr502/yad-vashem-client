@@ -1,0 +1,8 @@
+mat-grid-tile {
+    background: lightblue;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
