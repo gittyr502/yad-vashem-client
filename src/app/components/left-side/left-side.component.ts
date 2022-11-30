@@ -12,8 +12,6 @@ export class LeftSideComponent implements OnInit {
 
   constructor(private _leftService:LeftService) { }
 
-
-
   ngOnInit() {
 
     this._leftService.getLeft().subscribe(data => {

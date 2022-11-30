@@ -8,7 +8,7 @@ import { Loader } from '@googlemaps/js-api-loader';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   mapOptions: google.maps.MapOptions = {
     center: { lat: 50.065514051349126, lng: 19.946365356445312 },
     zoom : 14
@@ -17,7 +17,4 @@ export class AppComponent implements OnInit {
  marker = {
   position: { lat: 50.065514051349126, lng: 19.946365356445312},
 }
-  ngOnInit(): void {
-
-
-}}
+}
