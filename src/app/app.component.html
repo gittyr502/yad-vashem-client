@@ -7,18 +7,33 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFaXNvUSNlqQoqlNBgCgppWcSeYxb5kDM"></script>
+</head>
+
+<body>
+
+    <mat-grid-list cols="2" rowHeight="1:1">
+        <mat-grid-tile>1
+            <app-left-side></app-left-side>
+        </mat-grid-tile>
+        <mat-grid-tile>2
+            <app-right-side></app-right-side>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+</body>
+
+</html>
 
 
-<mat-grid-list cols="2" rowHeight="1:1">
-    <mat-grid-tile>1
-        <app-left-side></app-left-side>
-    </mat-grid-tile>
-    <mat-grid-tile>2
-        <app-right-side></app-right-side>
-    </mat-grid-tile>
-</mat-grid-list>
-
-<div #mapContainer id="map"></div>
 
 
 

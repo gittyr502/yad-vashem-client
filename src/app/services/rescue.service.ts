@@ -13,7 +13,6 @@ constructor(private _http: HttpClient) { }
 
 
 getRescue():Observable<Rescue>{
-  debugger;
 return this._http.get<any>(this.baseURL+'/getRescue');
 }
 

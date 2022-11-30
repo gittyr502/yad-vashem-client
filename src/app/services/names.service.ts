@@ -13,7 +13,6 @@ constructor(private _http: HttpClient) { }
 
 
 getNames():Observable<Names>{
-  debugger;
 return this._http.get<any>(this.baseURL+'/getNames');
 }
 }

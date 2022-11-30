@@ -13,7 +13,6 @@ constructor(private _http: HttpClient) { }
 
 
 getPhotos():Observable<Photos>{
-  debugger;
 return this._http.get<any>(this.baseURL+'/getPhotos');
 }
 

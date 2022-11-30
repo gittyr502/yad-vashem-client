@@ -1,14 +1,3 @@
-export class Element_ {
-  id: any;
-  title!: string;
-  text: any;
-  description: any;
-  credit: any;
-  source: any;
-  url: any;
-  images!: Image[];
-}
-
 export class Image {
   id!: string;
   title!: string;
@@ -22,6 +11,20 @@ export class Image {
   relatedLink: any;
   marksPoints: any;
 }
+
+
+export class Element_ {
+  id: any;
+  title!: string;
+  text: any;
+  description: any;
+  credit: any;
+  source: any;
+  url: any;
+  images!: Image[];
+}
+
+
 
 export class Photos {
   title!: string;

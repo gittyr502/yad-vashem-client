@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatTabsModule } from '@angular/material/tabs';
 import{MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule}from '@angular/material/card';
+import { GoogleMapsModule } from '@angular/google-maps'
+
 
 @NgModule({
   declarations: [AppComponent, LeftSideComponent, RightSideComponent],
@@ -21,7 +23,8 @@ import {MatCardModule}from '@angular/material/card';
     HttpClientModule,
     MatTabsModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
